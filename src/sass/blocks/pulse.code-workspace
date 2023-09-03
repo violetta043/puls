@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../progect_scss01"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "progect_scss01"
+	}
+}
