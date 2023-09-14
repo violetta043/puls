@@ -180,6 +180,24 @@
             font-size: 18px;
         }
     }
+
+    .feed-form_mt25 {
+        width: 256px;
+        input{
+            height: 45px;
+        }
+    }
+    .modal {
+        width: 355px;
+        min-height: 390px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -288,6 +306,24 @@
             img {
                 height: 24px;
             }
+        }
+    }
+
+    .feed-form_mt25 {
+        width: 218px;
+        input{
+            height: 40px;
+            font-size: 11px;
+        }
+    }
+    .modal {
+        width: 326px;
+        min-height: 390px;
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 11px;
         }
     }
 
@@ -491,6 +527,27 @@
             img {
                 height: 20px;
             }
+        }
+    }
+    .feed-form_mt25 {
+        width: 155px;
+        input{
+            height: 30px;
+            font-size: 10px;
+        }
+    }
+    .modal {
+        width: 228px;
+        min-height: 300px;
+        &__subtitle {
+            font-size: 9px;
+        }
+        &__descr {
+            font-size: 8px;
+        }
+        &__close {
+            right: -25px;
+            font-size: 27px;
         }
     }
 }
